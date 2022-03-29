@@ -1,0 +1,52 @@
+.footer-wrap{
+    background-color: black;
+}
+
+.footer-wrap > div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rounded-footer-link{
+    background-color: white;
+    border-radius: 15pt;
+}
+
+.wrap-social-media-footer{
+    display: inline-flex;
+    margin-top: 0.5rem;
+}
+
+.btn-rounded-footer{
+    border-radius: 50%;
+    border: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.225rem;
+    margin-right: 0.225rem;
+    background-color: white;
+    text-decoration: none !important;
+    color: black;
+}
+.btn-rounded-footer:hover{
+    color: black;
+}
+.adjust-center-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adjust-pos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    text-align: center;
+}

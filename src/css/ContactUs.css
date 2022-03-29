@@ -1,0 +1,75 @@
+.wrap-contact-us-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    /* align-items: center; */
+}
+.wrap-contact-us-container > input{
+    width: 70%;
+    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+}
+
+.field-style{
+    border: 2pt solid #B5B5B5;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+}
+.wrap-title-desc-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+
+
+.wrap-title-desc-container > span{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrap-title-desc-container > p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+.btn-send{
+    border: 2pt solid #B5B5B5;
+    border-radius: 10px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 1rem ;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    float: right;
+}
+.btn-send > i {
+    padding-left: 0.6rem;
+ }
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+

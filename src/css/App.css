@@ -1,0 +1,51 @@
+
+body{   
+    margin:0;
+    padding:0; 
+    background-color: #2E2E2E;
+    color: white !important;
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+section{
+    position: relative;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+
+h2,h3{
+  font-weight: 800;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* .loader {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.1em solid #000000;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+    transition: opacity 0.3s;
+  } */
+  .loader{
+      /* background: url(/public/images/Spin-1s-200px.gif); */
+      background-position: center;
+  }
+  .loader--hide {
+    opacity: 0;
+  }
+  
+  /* @keyframes load8 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */

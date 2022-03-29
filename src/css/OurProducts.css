@@ -1,0 +1,103 @@
+@media screen and (max-width: 765px) {
+    .bg-products{
+        background: url(/public/images/bg-products-mob.png);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .bg-products > div{
+        padding-top: 2rem;
+    }   
+}
+@media screen and (min-width: 675px) {
+    .bg-products{
+        background: url(/public/images/bg-products.png);
+        background-size: cover;
+        min-height: 120vh;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .bg-products > div{
+        padding-top: 5.3rem;
+    } 
+}
+@media screen and (max-width:767px) {
+    .column-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .column-wrap > div:nth-child(1){
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .column-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-wrap > div:nth-child(1){
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+.adjust-space{
+    margin: 2rem;
+}
+.adjust-center-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adjust-center-products > a{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.adjust-center-products > a > i {
+    padding: 0.6rem;
+}
+.wrap-game-title-desc{
+    color: #2C3531;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    align-items: flex-end;
+}
+.draw-line{
+    border: 1.3pt solid #707070;
+    background-color: #707070;
+    width: 40%; 
+    margin-bottom: 1rem;
+}
+.wrap-game-title-desc > h1{
+    font-weight: 800;
+}
+
+.wrap-game-title-desc > span{
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.fa-solid, .fa-brands{
+    color: #2C3531;
+}
+
+.btn-game{
+    border: none;
+}
+.btn-game.selected{
+    border: 3pt solid #0AE6A6;
+}
+
+object{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.svg-wrapper{
+    max-width: 100%;
+    max-height: 100%;
+}
+  

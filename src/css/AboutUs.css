@@ -1,0 +1,77 @@
+.logo-nomina-white-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.about-us-title-wrap{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+@media screen and (max-width: 765px) {
+    .desk-size{
+        height:280px;
+    }
+}
+
+
+
+.adjust-pos{
+    margin-top: 2.5rem;
+    /* margin-bottom: 2.5rem; */
+}
+
+.adjust-pos > h2{
+    margin-bottom: 2.5rem;
+}
+
+.grid-pic-life-at-nomina{
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns:  2fr 1fr 1fr; */
+    grid-template-areas: 'item1 item2 item3' 'item1 item4 item5';
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    /* grid-template-rows: 28px 30px 500px 50px 20px auto; */
+ 
+}
+
+.grid-pic-life-at-nomina>.item1 {
+    grid-area: item1;
+}
+.grid-pic-life-at-nomina>.item2 {
+    grid-area: item2;
+}
+.grid-pic-life-at-nomina>.item3 {
+    grid-area: item3
+}
+.grid-pic-life-at-nomina>.item4 {
+    grid-area: item4
+}
+.grid-pic-life-at-nomina>.item5 {
+    grid-area: item5
+}
+
+
+@media screen and (max-width:425px) {
+    .nomina-desktop{
+        display: none;
+    }
+    .nomina-mob{
+        display: block;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .nomina-desktop{
+        display: block;
+    }
+    .nomina-mob{
+        display: none;
+    }
+}

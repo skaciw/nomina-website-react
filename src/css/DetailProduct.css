@@ -1,0 +1,8 @@
+.wrap-more-img-detail-product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.wrap-more-img-detail-product > div{
+    padding: 0.3rem;
+}
