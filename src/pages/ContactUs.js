@@ -28,30 +28,6 @@ const ContactUs = () => {
             console.log('FAILED',error);
         });      
         
-        // window.Email.send({
-        //     SecureToken : "f4a0327e-8b44-4be2-88eb-ddd1e13b0499",
-        //     To : 'jennifergoldwinnn@gmail.com',
-        //     From : details.email,
-        //     Subject : "Submit Nomina Contact Us Form ",
-        //     Body : details.message
-        // }).then(
-        //     document.getElementById("contact-us-form").reset(),
-        //     setResponse("Success"),
-        //     setStatus("Send"), 
-        // );
-
-
-        // window.Email.send({
-        //     Host : "smtp.gmail.com",
-        //     Username : "jennifergoldwinn25@gmail.com",
-        //     Password : "A4C7806EA0611ECE2DCCA6DE64DFD0ED3B05",
-        //     To : 'jennifergoldwinn25@gmail.com',
-        //     From : details.email,
-        //     Subject : "This is the subject",
-        //     Body : "And this is the body"
-        // }).then(
-        //   message => alert(message)
-        // );
     }
 
     const renderAlert = () => {
